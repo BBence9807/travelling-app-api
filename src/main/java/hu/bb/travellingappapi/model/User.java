@@ -2,9 +2,10 @@ package hu.bb.travellingappapi.model;
 
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Email;
 import lombok.*;
 
-import javax.validation.constraints.Email;
+
 
 
 @Entity
