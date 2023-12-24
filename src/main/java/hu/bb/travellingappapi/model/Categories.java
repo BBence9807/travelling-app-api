@@ -10,11 +10,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class Categories {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+public class Categories extends BaseEntity {
 
     @Column(nullable = false, name = "c_hun_name")
     private String hunName;
